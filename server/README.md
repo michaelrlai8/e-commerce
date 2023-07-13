@@ -1,70 +1,57 @@
-<p align="center">
-  <a href="https://www.medusajs.com">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/59018053/229103275-b5e482bb-4601-46e6-8142-244f531cebdb.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/59018053/229103726-e5b529a3-9b3f-4970-8a1f-c6af37f087bf.svg">
-    <img alt="Medusa logo" src="https://user-images.githubusercontent.com/59018053/229103726-e5b529a3-9b3f-4970-8a1f-c6af37f087bf.svg">
-    </picture>
-  </a>
-</p>
-<h1 align="center">
-  Medusa
-</h1>
+# 🚀 Getting started with Strapi
 
-<h4 align="center">
-  <a href="https://docs.medusajs.com">Documentation</a> |
-  <a href="https://www.medusajs.com">Website</a>
-</h4>
+Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
-<p align="center">
-  Building blocks for digital commerce
-</p>
-<p align="center">
-  <a href="https://github.com/medusajs/medusa/blob/master/CONTRIBUTING.md">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs welcome!" />
-  </a>
-    <a href="https://www.producthunt.com/posts/medusa"><img src="https://img.shields.io/badge/Product%20Hunt-%231%20Product%20of%20the%20Day-%23DA552E" alt="Product Hunt"></a>
-  <a href="https://discord.gg/xpCwq3Kfn8">
-    <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Discord Chat" />
-  </a>
-  <a href="https://twitter.com/intent/follow?screen_name=medusajs">
-    <img src="https://img.shields.io/twitter/follow/medusajs.svg?label=Follow%20@medusajs" alt="Follow @medusajs" />
-  </a>
-</p>
+### `develop`
 
-## Compatibility
+Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
 
-This starter is compatible with versions >= 1.8.0 of `@medusajs/medusa`. 
+```
+npm run develop
+# or
+yarn develop
+```
 
-## Getting Started
+### `start`
 
-Visit the [Quickstart Guide](https://docs.medusajs.com/create-medusa-app) to set up a server.
+Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
 
-Visit the [Docs](https://docs.medusajs.com/development/backend/prepare-environment) to learn more about our system requirements.
+```
+npm run start
+# or
+yarn start
+```
 
-## What is Medusa
+### `build`
 
-Medusa is a set of commerce modules and tools that allow you to build rich, reliable, and performant commerce applications without reinventing core commerce logic. The modules can be customized and used to build advanced ecommerce stores, marketplaces, or any product that needs foundational commerce primitives. All modules are open-source and freely available on npm.
+Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
 
-Learn more about [Medusa’s architecture](https://docs.medusajs.com/development/fundamentals/architecture-overview) and [commerce modules](https://docs.medusajs.com/modules/overview) in the Docs.
+```
+npm run build
+# or
+yarn build
+```
 
-## Roadmap, Upgrades & Plugins
+## ⚙️ Deployment
 
-You can view the planned, started and completed features in the [Roadmap discussion](https://github.com/medusajs/medusa/discussions/categories/roadmap).
+Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
 
-Follow the [Upgrade Guides](https://docs.medusajs.com/upgrade-guides/) to keep your Medusa project up-to-date.
+## 📚 Learn more
 
-Check out all [available Medusa plugins](https://medusajs.com/plugins/).
+- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
+- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
+- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
+- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
+- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
 
-## Community & Contributions
+Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
 
-The community and core team are available in [GitHub Discussions](https://github.com/medusajs/medusa/discussions), where you can ask for support, discuss roadmap, and share ideas.
+## ✨ Community
 
-Join our [Discord server](https://discord.com/invite/medusajs) to meet other community members.
+- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
+- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
+- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
 
-## Other channels
+---
 
-- [GitHub Issues](https://github.com/medusajs/medusa/issues)
-- [Twitter](https://twitter.com/medusajs)
-- [LinkedIn](https://www.linkedin.com/company/medusajs)
-- [Medusa Blog](https://medusajs.com/blog/)
+<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
